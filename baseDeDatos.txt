@@ -1,0 +1,2 @@
+docker run -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=123" -p 1433:1433 --name sql_server_todo_app -d mcr.microsoft.com/mssql/server:2019-latest
+docker start sql_server_todo_app
